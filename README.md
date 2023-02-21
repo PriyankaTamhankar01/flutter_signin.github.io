@@ -1,16 +1,29 @@
-# flutter_signin
 
-A new Flutter project.
+# Social-Media-Integration
 
-## Getting Started
+Task5 #TheSparkFoundation
 
-This project is a starting point for a Flutter application.
+This is Task 5 " Payment Gateway Integration " of The Spark Foundation under their
 
-A few resources to get you started if this is your first Flutter project:
+#GRIPFEBRUARY23
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Task #5 Social Media Integration:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  1. Sign in through Google.
+  2. After login, it displays all the details (name, profile photo, and email) on the second page.
+
+
+
+
+
+
+## Plugins
+
+For this project you have to add two plugins:
+
+- [firebase_core](https://pub.dev/packages/firebase_core): Required for initializing Firebase and using any other Firebase plugins.
+- [firebase_auth](https://pub.dev/packages/firebase_auth): For using Firebase Authentication service in Flutter.
+- [google_sign_in](https://pub.dev/packages/google_sign_in): To use Google Sign-In
+
+The latest version of all these plugins support *null safety*.
+
